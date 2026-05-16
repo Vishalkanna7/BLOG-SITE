@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" role="img" aria-label="Enterprise AI observability">
+  <defs>
+    <linearGradient id="ring" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#fb7185"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="760" rx="28" fill="#0b1220"/>
+  <circle cx="700" cy="380" r="225" fill="#111827" stroke="url(#ring)" stroke-width="8"/>
+  <circle cx="700" cy="380" r="98" fill="#172033" stroke="#475569"/>
+  <text x="627" y="392" fill="#f8fafc" font-family="Inter, Arial" font-size="36" font-weight="800">AI API</text>
+  <g fill="#172033" stroke="#475569">
+    <rect x="110" y="120" width="260" height="110" rx="18"/>
+    <rect x="1030" y="120" width="260" height="110" rx="18"/>
+    <rect x="110" y="530" width="260" height="110" rx="18"/>
+    <rect x="1030" y="530" width="260" height="110" rx="18"/>
+  </g>
+  <g font-family="Inter, Arial" font-weight="800" fill="#f8fafc" font-size="34">
+    <text x="200" y="190">IAM</text>
+    <text x="1082" y="190">CloudTrail</text>
+    <text x="166" y="600">CloudWatch</text>
+    <text x="1102" y="600">Costs</text>
+  </g>
+  <g fill="none" stroke="#2dd4bf" stroke-width="7" stroke-linecap="round" opacity="0.86">
+    <path d="M370 175 C505 190 555 250 610 306"/>
+    <path d="M1030 175 C895 190 845 250 790 306"/>
+    <path d="M370 585 C505 570 555 510 610 454"/>
+    <path d="M1030 585 C895 570 845 510 790 454"/>
+  </g>
+  <text x="410" y="705" fill="#94a3b8" font-family="JetBrains Mono, monospace" font-size="24">
+    permissions • audit trail • metrics • latency • spend
+  </text>
+</svg>
