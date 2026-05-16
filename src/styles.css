@@ -103,12 +103,37 @@ body.light .nav-link-active {
   background: rgba(15, 23, 42, 0.1);
 }
 
+body.light .text-white,
+body.light .text-slate-200 {
+  color: #020617;
+}
+
+body.light .text-slate-300 {
+  color: #1e293b;
+}
+
+body.light .text-slate-400 {
+  color: #334155;
+}
+
+body.light .text-teal-100 {
+  color: #0f766e;
+}
+
+body.light .hover\:text-white:hover {
+  color: #020617;
+}
+
+body.light .placeholder\:text-slate-500::placeholder {
+  color: #64748b;
+}
+
 .prose-blog {
   color: #cbd5e1;
 }
 
 body.light .prose-blog {
-  color: #334155;
+  color: #1e293b;
 }
 
 .prose-blog h2 {
